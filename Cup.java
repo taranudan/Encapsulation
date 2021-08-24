@@ -23,7 +23,7 @@ public class Cup {
 	    		this.liquidName = liquidName;
 	    	}
 	    	else {
-	    		System.err.println ("The data entered for liquidName is incorrect");
+	    		System.err.println ("The data entered for liquidName is incorrect, Possible values for liquidName: Water, Milk, Tea.");
 	    	}			
 		}
 	    
