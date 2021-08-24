@@ -36,7 +36,7 @@ public class Cup {
 	    		this.liquidVolume = liquidVolume;
 	    	}
 	    	else {
-	    		System.err.println ("The data entered for liquidVolume is incorrect");
+	    		System.err.println ("The data entered for liquidVolume is incorrect. The volume can be in the range from 0 to 600");
 	    	}
 		}
 }
