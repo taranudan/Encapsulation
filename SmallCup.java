@@ -9,12 +9,12 @@ public class SmallCup extends Cup {
 	}
 	
 	public void setLiquidVolume(int liquidVolume) {			
-    	if (liquidVolume>= 0 && liquidVolume <= 250) {
-    		this.liquidVolume = liquidVolume;
-    	}
-    	else {
-    		System.err.println ("The data entered for liquidVolume is incorrect");
-    	}
+    		if (liquidVolume>= 0 && liquidVolume <= 250) {
+    			this.liquidVolume = liquidVolume;
+    		}
+    		else {
+    			System.err.println ("The data entered for liquidVolume is incorrect");
+    		}
 	}
 	
 }
